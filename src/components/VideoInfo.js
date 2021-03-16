@@ -7,7 +7,7 @@ const VideoInfo = ({video}) => {
     const [likeCount, handleUpvote] = useState(upvotes)
     const [dislikeCount, handleDownvote] = useState(downvotes)
     const [commentStatus, setCommentStatus] = useState(true)
-    const [sorted, setSortedStatus] = useState(false)
+    // const [sorted, setSortedStatus] = useState(false)
 
     const [search, setSearch] = useState("")
 
